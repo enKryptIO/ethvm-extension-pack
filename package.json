@@ -8,6 +8,9 @@
     "engines": {
         "vscode": "^1.26.0"
     },
+    "scripts": {
+    "vscode:prepublish": "node ./.vscode/test_launch.js"
+    }, 
     "categories": [
         "Extension Packs"
     ],
