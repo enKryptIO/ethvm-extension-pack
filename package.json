@@ -4,14 +4,16 @@
     "description": "EthVM Development extension pack",
     "version": "0.0.1",
     "publisher": "ethvm",
+    "icon": "icon.jpg",
     "engines": {
         "vscode": "^1.26.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
+    "extensionDependencies": [ 
         "ms-vscode.Go", 
+        "EditorConfig.EditorConfig",
         "octref.vetur"
     ]
 }
