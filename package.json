@@ -1,0 +1,17 @@
+{
+    "name": "ethvm",
+    "displayName": "Ethvm",
+    "description": "EthVM Development extension pack",
+    "version": "0.0.1",
+    "publisher": "ethvm",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "ms-vscode.Go", 
+        "octref.vetur"
+    ]
+}
