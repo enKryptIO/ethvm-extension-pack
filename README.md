@@ -1,6 +1,6 @@
 # Ethvm Extension pack
 
-A collection of extensions for setting up your vscode environment for Development of Ethvm:Ethereum Blockchain Explorer
+A collection of extensions for setting up your VSCode environment for Development of [Ethvm: Ethereum Blockchain Explorer](https://github.com/enKryptIO/ethvm)
 
 ### Extensions Included
 * [Go for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
@@ -20,11 +20,11 @@ Download  [ethvm.vsix](https://github.com/enKryptIO/ethvm-extension-pack/release
 
 ### Step 2
 
-Go to extension Tab in Visual studio code, from options press Install from Vsix
+Go to extension Tab in VSCode, from options press Install from vsix
 
 ![Step 2 Screenshot](.github/assets/step.png)
 
-This will install ethvm package extension into Visual studio code.
+This will install ethvm package extension into VSCode.
 
 ## Build from Source
 
@@ -44,7 +44,7 @@ Install vsce
 yarn global add vsce
 ```
 
-### step 3
+### Step 3
 
 pack extension
 
