@@ -20,6 +20,14 @@
         "oderwat.indent-rainbow",
         "esbenp.prettier-vscode",
         "mikestead.dotenv"
-
-    ]
+    ],
+    "license": "https://github.com/enKryptIO/ethvm-extension-pack/blob/master/LICENSE",
+    "homepage": "https://github.com/enKryptIO/ethvm-extension-pack/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/enKryptIO/ethvm-extension-pack/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/enKryptIO/ethvm-extension-pack"
+    }
 }
