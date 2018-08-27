@@ -4,10 +4,23 @@ A collection of extensions for setting setting up your vscode environment for De
 
 ### Extensions Included
 * [Go for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
-*  [Editorconfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-*  [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+* [Editorconfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-## Installing VScode Ethvm Extension Pack
+## Installing Visual studio code Ethvm Extension Pack
+
+### Step 1
+
+Download  ethvm.vsix 
+
+### Step 2
+
+Go to extension Tab in Visual studio code, from options press Install from Vsix
+
+![Step 2 Screenshot](.github/assets/step.png)
+
+
+## Build from Source
 
 ### Step 1
 
@@ -19,16 +32,21 @@ $ git clone https://github.com/enKryptIO/ethvm-extension-pack/
 
 ### Step 2
 
-Copy ethvm-extension-pack to your local extensions folder:
+Install vsce
+
 ```sh
-Windows %USERPROFILE%\.vscode\extensions
-Mac $HOME/.vscode/extensions
-Linux $HOME/.vscode/extensions
+yarn global add vsce
 ```
 
 ### step 3
 
-Restart vscode
+pack extension
+
+```sh
+vsce package
+```
+
+This will package extension into a .vsix file and place it in the current directory
 
 ## License
 
